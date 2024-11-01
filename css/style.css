@@ -73,7 +73,7 @@ section {
 /* About Section */
 .about {
     background: var(--gradient-bg);
-    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
     padding: calc(var(--spacing-section) * 1.5) 0;
 }
 
@@ -286,7 +286,7 @@ section {
 /* Contact Section */
 .contact {
     background: var(--gradient-bg);
-    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
     text-align: center;
     padding-top: calc(var(--spacing-section) * 1.5);
 }
